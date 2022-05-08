@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Google Shopping List</title>
+	<link rel="icon" href="./icons/favicon.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/754bb55539.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+	<div class="header">
+			<img  class="hamburger-icon" src="./icons/hamburger-icon.png">
+			<a class="header-list" href="">Shopping List</a>
+	</div>
+
+	<div class="container" >
+		<div class="left-side">
+			<div class="new-list-container">
+				<button class="new-list-button"> <img class="button-image" src="./icons/add-icon.png" >
+				<div class="button-text">New list</div>
+				</button>
+			</div>
+			<div class="list-info">
+				<div>
+					<div class="list-info-title">My shopping list</div> 
+					<div class="list-info-quantity">2 items</div>
+				</div>
+			</div>
+			<hr>
+			<div class="info">
+					<img class="feedback-icon" src="./icons/feedback-icon.png">
+					<div class="info-text">Send feedback</div>
+			</div>
+			<div class="info">
+				<img class="feedback-icon" src="./icons/help-icon.png">
+				<div class="info-text">Help</div>
+			</div>
+
+			<div class="privacy-terms">
+				<a href="" target="_blank">Privacy</a>
+				&nbsp;•&nbsp;
+				<a href="" target="_blank">Terms</a>
+			</div>
+			
+		</div>
+		<div class="right-side">
+			<div class="rightside-title-container">
+				<div class="rightside-title-text">
+					<div class="rightside-title">My shopping list</div>
+					<div class="rightside-quantity">2 items</div>
+				</div>
+				<div class="icons-container">
+					<div class="icons">
+						<i class="fa-solid fa-user-plus fa-xl"></i>
+					</div>
+					<div class="icons">
+						<img src="./icons/sort-icon.png" >
+					</div>
+					<div class="icons">
+						<i class="fa-solid fa-ellipsis-vertical fa-2xl"></i>
+					</div>
+					
+				</div>
+			</div>
+
+
+			<form action="">
+				<input class="add-button" type="text" placeholder="Add item">
+			</form>
+			<ul>
+				<li>
+					<div class="list-container">
+						<div class="mini-cont">
+						<input class="chexbox" type="checkbox">
+						<input class="input-text" type="text"  value="tea" >
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="list-container">
+						<div class="mini-cont">
+						<input class="chexbox" type="checkbox">
+						<input class="input-text" type="text"  value="Android charger" >
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
